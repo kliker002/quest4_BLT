@@ -1,0 +1,75 @@
+body .container{
+    width: 410px;
+    height: auto;
+    margin: 0 auto;
+
+
+}
+body .container div{
+    width: 49px;
+    height: 49px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+}
+body .letter-block{
+    text-align: center;
+    min-width: 458px;
+
+}
+body .letter-block div{
+    display: inline-block;
+    width: 49px;
+    height: auto;
+}
+.full_wrapper{
+    overflow: hidden;
+}
+.A8::before{
+    content: '8';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A7::before{
+    content: '7';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A6::before{
+    content: '6';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A5::before{
+    content: '5';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A4::before{
+    content: '4';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A3::before{
+    content: '3';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A2::before{
+    content: '2';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
+.A1::before{
+    content: '1';
+    position: relative;
+    right: 30px;
+    vertical-align: middle;
+}
