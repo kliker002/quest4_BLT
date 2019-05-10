@@ -46,20 +46,21 @@ function vertical_check(ask_input, index_letter) {
 function horizontal_check(ask_input, index_letter) {
     numOnDesc = ask_input[1]
     if (parseInt(index_letter) - parseInt('2') >= 0) { //осуществляется проверка на выход за пределы
-        if (parseInt(numOnDesc) + parseInt('1') < number.length) {
-            ;
-            response.push(letters[index_letter - 2] + (parseInt(numOnDesc) + 1))
+        if (parseInt(numOnDesc) < number.length) {
+            console.log(letters[index_letter - 2] + (parseInt(numOnDesc) + 1));
+            response.push(letters[index_letter - 2] + (parseInt(numOnDesc) + 1));
         }
         if (parseInt(numOnDesc) - parseInt('1') > 0) {
             response.push(letters[index_letter - 2] + (parseInt(numOnDesc) - 1));
         }
     }
     if (parseInt(index_letter) + parseInt('2') < letters.length) { //осуществляется проверка на выход за пределы
-        if (parseInt(numOnDesc) + parseInt('1') < number.length) {
+        if (parseInt(numOnDesc) < number.length) {
             response.push(letters[index_letter + 2] + (parseInt(numOnDesc) + 1));
         }
         if (parseInt(numOnDesc) - parseInt('1') > 0) {
             response.push(letters[index_letter + 2] + (parseInt(numOnDesc) - 1));
+            
         }
     }
 }
